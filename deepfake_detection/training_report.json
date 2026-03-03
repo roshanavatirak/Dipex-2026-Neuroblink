@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-03 17:53:14",
+  "dataset_analysis": {
+    "total_samples": 1986,
+    "real_samples": 990,
+    "fake_samples": 996,
+    "feature_count": 422
+  },
+  "training_results": {
+    "accuracy": 1.0,
+    "cv_mean": 0.9164196296343177,
+    "cv_std": 0.01593486722670548,
+    "cv_f1_mean": 0.9203422123968712,
+    "cv_f1_std": 0.013951603993580537,
+    "n_features": 111,
+    "n_samples": 1986,
+    "training_time": 11.4114511013031,
+    "model_type": "xgboost",
+    "model_path": "models/classifier.pkl",
+    "confusion_matrix": [
+      [
+        990,
+        0
+      ],
+      [
+        0,
+        996
+      ]
+    ],
+    "auc_score": 1.0
+  }
+}
